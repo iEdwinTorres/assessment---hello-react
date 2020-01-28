@@ -86,19 +86,15 @@ import React, { Component } from 'react';
 // ... more imports may be here
 
 const Text = () => {
-    render() {
-        return (
-            /*... component implementation here */
-        )
-    }
+    return (
+        /*... component implementation here */
+    )
 }
 
 const App = () => {
-    render() {
-        return (
-            <h1>Hello, {/*... add at least one instance of <Text ... /> here*/} </h1>
-        );
-    }
+    return (
+        <h1>Hello, {/*... add at least one instance of <Text ... /> here*/} </h1>
+    );
 }
 
 export default App;
